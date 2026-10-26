@@ -1,0 +1,20 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "Shopify Store Product, Pricing, Stock & Merchant Contact Spy",
+  "actorStoreUrl": "https://apify.com/lucacelli/shopify-store-product-contact-spy",
+  "costComparison": "$0.0005 per product ($0.50/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~shopify-store-product-contact-spy/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "storeUrls": [
+        "https://gymshark.com",
+        "https://allbirds.com"
+      ],
+      "maxProductsPerStore": 100
+    }
+  }
+}
