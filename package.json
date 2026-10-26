@@ -1,0 +1,27 @@
+{
+  "name": "@lucacelli/shopify-store-product-contact-spy",
+  "version": "2.1.0",
+  "description": "Scrape complete Shopify product catalogs, variants, SKUs, sale discounts, live stock availability, installed Shopify apps/pixels, and merchant emails & social links without expensive headless browsers.",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://apify.com/lucacelli/shopify-store-product-contact-spy",
+  "keywords": [
+    "google-maps-scraper",
+    "google-maps-api",
+    "lead-generation",
+    "b2b-leads",
+    "email-extractor",
+    "apify-actor",
+    "local-seo",
+    "google-places-api",
+    "contact-scraper",
+    "phone-number-scraper",
+    "business-directory",
+    "n8n-workflow",
+    "mcp-server",
+    "web-scraping",
+    "sales-automation"
+  ],
+  "author": "Lucacelli Cloud Data Engineering",
+  "license": "MIT"
+}
